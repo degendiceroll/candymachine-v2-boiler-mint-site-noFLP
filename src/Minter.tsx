@@ -295,7 +295,7 @@ const Home = (props: HomeProps) => {
                       )}
 
                       <div>
-                        <p>Mints to Claim</p>
+                        <p>Tickets to Claim</p>
                       </div>
                     </div>
                   )}
