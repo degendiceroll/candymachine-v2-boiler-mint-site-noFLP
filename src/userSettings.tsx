@@ -145,8 +145,8 @@ export const publicSaleSettings: PublicSaleSettings = {
   // date('29 2021 00:00:00 GMT')
 
   //Title and Description
-  title: "Public Sale",
-  desc: "Sale is now live. Mint your NFT below",
+  title: "Cyborg Ape Society",
+  desc: "Mint with your CAS token. WL only, no normies allowed.",
 
   //Enable Custom HTML
   enableCustomHTML: false,
@@ -159,7 +159,7 @@ export class MintPublicSaleCustomHTML extends React.Component {
         {/* Add Custom HTML code for Public Minting Here! */}
 
         
-        <p>Test 3</p>
+        <p>CAS</p>
         
         
         {/* End */}

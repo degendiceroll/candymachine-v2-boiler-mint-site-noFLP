@@ -71,11 +71,15 @@ const App = () => {
           </li>
           <li>
             <div className="social-icons">
-              <a href="https://twitter.com/HeavensLotto">
+              <a href="https://twitter.com/CyborgApesNFT">
                 <img className="nav-social" src="/icons/twitter.svg" alt="" />
               </a>
-              <a href="https://discord.gg/sBT3R3wqsE">
-                <img className="nav-social" src="/icons/discord.svg" alt="" />
+              <a href="https://discord.gg/UHVM4QyU2m">
+                <img
+                  className="nav-social discord"
+                  src="/icons/discord.svg"
+                  alt=""
+                />
               </a>
             </div>
           </li>
@@ -88,23 +92,31 @@ const App = () => {
         <div className="nav-container">
           <img className="nav-logo" src="/img/logo.png" alt="" />
           <div className="social-icons hide-800">
-            <a href="https://twitter.com/HeavensLotto">
+            <a href="https://twitter.com/CyborgApesNFT">
               <img className="nav-social" src="/icons/twitter.svg" alt="" />
             </a>
-            <a href="https://discord.gg/sBT3R3wqsE">
-              <img className="nav-social" src="/icons/discord.svg" alt="" />
+            <a href="https://discord.gg/UHVM4QyU2m">
+              <img
+                className="nav-social discord"
+                src="/icons/discord.svg"
+                alt=""
+              />
             </a>
           </div>
         </div>
       </nav>
       <div className="content-wrapper">
+        <img src="/ape.gif" className="ape-img" />
+
         <header className="card" id="link1">
           <div style={{ padding: "0 24px 0 24px 0" }}>
             {/* <h3 className="text-secondary-color">Welcome To</h3> */}
-            <h1 className="pb-3">Heaven Sevens Lottery</h1>
+            <img src="/logo-bold.png" style={{ padding: "0 0 20px" }} />
             <h4 className="text-secondary-color">
-              Solana's first daily lottery. The original ticket holders will 20%
-              of royalties from each lottery pool.
+              Cyborg Apes are an NFT collection consisting of 1111 unique
+              algorithmically generated apes that are going to invade the Solana
+              Blockchain. Their mission is to save normal apes from ruthless
+              poachers.
             </h4>
           </div>
           <div>
@@ -125,61 +137,6 @@ const App = () => {
             </ThemeProvider>
           </div>
         </header>
-        {/* 
-        <div id="link2" className="container">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac velit
-          aliquet, semper sapien sed, ornare augue. Phasellus sed velit
-          interdum, sagittis metus quis, facilisis lectus. Cras sollicitudin
-          purus at magna eleifend maximus. Nulla nec nulla in nunc maximus
-          viverra in at mauris. Fusce sodales dolor nisi, et vehicula orci porta
-          id. In placerat nunc sed erat lacinia tincidunt. Interdum et malesuada
-          fames ac ante ipsum primis in faucibus. Vestibulum commodo eget metus
-          vitae tempus. Aliquam pharetra mi at efficitur accumsan. Curabitur
-          venenatis libero a ex porttitor, at auctor turpis hendrerit. Nam
-          commodo, risus non consequat pretium, erat ante auctor purus, a cursus
-          dolor erat at velit. Maecenas dignissim, dolor sed laoreet aliquam,
-          tortor lacus faucibus urna, eget mattis massa sem ac dui. Nam semper
-          hendrerit interdum. Etiam at dictum nisi.
-        </div> */}
-
-        {/* <div id="link3" className="container card">
-          <h1 className="pb-3">Lorem ipsum</h1>
-        </div> */}
-        {/* <img src="/img/balls.png" /> */}
-        <div id="link4" className="container faq">
-          <h1 style={{ padding: "0 0 24px 0" }}>FAQ</h1>
-          <div>
-            <h4>How is this lottery going to be run?</h4>
-            <p>
-              Everyday people can come in and buy multiple tickets for 0.1 SOL
-              each. At the end of the day, we'll pick winning tickets and
-              distribute prizes.
-            </p>
-
-            <hr />
-          </div>
-
-          <div>
-            <h4>What are the prizes?</h4>
-            <p>
-              The jackpot is going to be 30% of the lottery pool collected, so
-              for eg, if we sell 5000 tickets, you could potentially win 150
-              SOL! We have smaller prizes too.
-            </p>
-
-            <hr />
-          </div>
-
-          <div>
-            <h4>When will this lottery stop running?</h4>
-            <p>
-              When people stop buying tickets! Otherwise you're here, we're
-              here, let's play the lotto.
-            </p>
-
-            <hr />
-          </div>
-        </div>
       </div>
     </div>
   );
